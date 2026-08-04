@@ -64,13 +64,13 @@ cd meal-planner-app
 ### 2. Install dependencies
 
 ```bash
-pnpm install
+npm install
 ```
 
 ### 3. Start the development server
 
 ```bash
-pnpm dev
+npm run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) in your browser.
