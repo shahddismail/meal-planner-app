@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'DM Mono', monospace;
+
+  --color-cream: #FAF8F3;
+  --color-parchment: #F0EBE0;
+  --color-forest: #2A4A1A;
+  --color-forest-light: #3D6B28;
+  --color-forest-muted: #8AAB72;
+  --color-terracotta: #C85D2A;
+  --color-terracotta-light: #E8784A;
+  --color-amber: #D4882A;
+  --color-slate: #4A4A42;
+  --color-muted: #9A9A8E;
+  --color-border: #E2DBD0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background: #E8E3DA;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hide scrollbars until hover/touch */
+::-webkit-scrollbar { width: 3px; height: 3px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.15); border-radius: 99px; }
+
+.drag-over {
+  outline: 2px dashed #3D6B28;
+  outline-offset: -2px;
+  background: rgba(61, 107, 40, 0.06) !important;
+}
+
+.dragging {
+  opacity: 0.4;
+  transform: scale(0.97);
+}
+
