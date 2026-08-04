@@ -57,7 +57,7 @@ A fully interactive mobile meal planning app built with **React 19 + Vite + Tail
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/meal-planner-app.git
+git clone https://github.com/shahddismail/meal-planner-app.git
 cd meal-planner-app
 ```
 
